@@ -9,8 +9,9 @@ export default function(props) {
       <div class="img1">
         <img class="img" src={user.picture.large}></img>
       </div>
-      <p class="fname">{user.name.first}</p>
-      <p class="lname">{user.name.last}</p>
+      <p class="fname">
+        {user.name.first}, {user.name.last}
+      </p>
       <p class="email">{user.email}</p>
       <p class="phone">{user.phone}</p>
       <p class="location">

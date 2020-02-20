@@ -51,11 +51,26 @@ code {
 }
 .header {
   text-align: center;
+  width: 700px;
 }
 .img1 {
   border: 1px solid black;
-  width: 500px;
-  margin-left: 707px;
+  width: 699px;
   height: 180px;
   background-color: limegreen;
+}
+.fname {
+  border-bottom: 1px solid grey;
+}
+.lname {
+  border-bottom: 1px solid grey;
+}
+.email {
+  border-bottom: 1px solid grey;
+}
+.phone {
+  border-bottom: 1px solid grey;
+}
+.location {
+  border-bottom: 1px solid grey;
 }
